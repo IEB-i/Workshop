@@ -385,7 +385,7 @@
             if (doc.exists) {
                 const data = doc.data();
                 const totalInscricoes = data.totalInscricoes || (data.contador && data.contador.totalInscricoes) || 0;
-                if (totalInscricoes >= 175) {
+                if (totalInscricoes >= 300) {
                     alert("As inscrições já foram encerradas. Limite de vagas atingido.");
                     window.location.href = 'index.html';
                 }
